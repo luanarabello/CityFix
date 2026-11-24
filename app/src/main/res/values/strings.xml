@@ -1,0 +1,241 @@
+<resources>
+    <string name="app_name">CityFix</string>
+
+    <!-- Navigation & Top Bar -->
+    <string name="cd_back">Back</string>
+    <string name="cd_dashboard">Dashboard</string>
+    <string name="cd_sign_in_or_register">Sign in or register</string>
+    <string name="cd_manage_categories">Manage categories</string>
+    <string name="cd_validate_citizens">Validate citizens</string>
+    <string name="cd_add_occurrence">Add</string>
+    <string name="cd_profile">Profile</string>
+    <string name="cd_sign_out">Sign out</string>
+
+    <!-- Impact Detection Dialog -->
+    <string name="impact_dialog_title">Possible road anomaly</string>
+    <string name="impact_dialog_message">A sudden vertical impact was detected. Would you like to report a road anomaly?</string>
+    <string name="impact_dialog_open">Open report</string>
+    <string name="impact_dialog_dismiss">Not now</string>
+
+    <!-- Login & Registration -->
+    <string name="login_title_sign_in">Sign in to CityFix</string>
+    <string name="login_title_register">Create your account</string>
+    <string name="login_title_reset">Recover your password</string>
+    <string name="login_subtitle_sign_in">Use your email and password to continue.</string>
+    <string name="login_subtitle_register">Create an account with your email address.</string>
+    <string name="login_subtitle_reset">We will email you a password recovery link.</string>
+    <string name="field_full_name_required">Full name *</string>
+    <string name="field_name">Name</string>
+    <string name="field_email">Email</string>
+    <string name="field_phone_required">Phone *</string>
+    <string name="field_phone">Phone</string>
+    <string name="field_nif_required">NIF *</string>
+    <string name="field_nif">NIF</string>
+    <string name="field_location_required">Location *</string>
+    <string name="field_location">Location</string>
+    <string name="field_address_location">Address / Location</string>
+    <string name="field_password">Password</string>
+    <string name="field_confirm_password">Confirm password</string>
+    <string name="btn_use_current_location">Use current location</string>
+    <string name="cd_search_address">Search address</string>
+    <string name="btn_sign_in">Sign in</string>
+    <string name="btn_create_account">Create account</string>
+    <string name="btn_send_recovery">Send recovery email</string>
+    <string name="btn_forgot_password">Forgot password?</string>
+    <string name="btn_go_to_register">Create an account</string>
+    <string name="btn_already_have_account">Already have an account? Sign in</string>
+    <string name="btn_back_to_sign_in">Back to sign in</string>
+    <string name="btn_continue_anonymous">Continue as anonymous</string>
+
+    <!-- Occurrences List -->
+    <string name="occurrences_empty_title">No occurrences registered</string>
+    <string name="occurrences_empty_subtitle">No urban issues match the current profile.</string>
+    <string name="occurrences_header_title">Registered Occurrences</string>
+    <string name="occurrences_header_count">%1$d occurrence(s) listed</string>
+
+    <!-- New / Edit Occurrence -->
+    <string name="occurrence_edit_title">Edit Occurrence</string>
+    <string name="occurrence_new_title">Report New Occurrence</string>
+    <string name="occurrence_form_subtitle">Fill in the classification and details below.</string>
+    <string name="section_classification">Classification</string>
+    <string name="label_category">Category</string>
+    <string name="label_situation">Situation</string>
+    <string name="label_visibility">Visibility</string>
+    <string name="section_details_required">Details (Required)</string>
+    <string name="label_description_required">Description *</string>
+    <string name="placeholder_description">Describe the issue clearly…</string>
+    <string name="helper_description_required">Required: provide a clear description of the issue.</string>
+    <string name="section_media">Photos &amp; Videos</string>
+    <string name="btn_gallery">Gallery</string>
+    <string name="btn_photo">Photo</string>
+    <string name="btn_video">Video</string>
+    <string name="helper_media_empty">Attach at least one photo or video.</string>
+    <string name="section_location_required">Location (Required)</string>
+    <string name="helper_location_required">Tap the map or use GPS to set the location.</string>
+    <string name="cd_save_occurrence">Save occurrence</string>
+
+    <!-- Occurrence Detail -->
+    <string name="occurrence_not_found">Occurrence not found.</string>
+    <string name="detail_category_format">Category: %1$s</string>
+    <string name="detail_created_at">Created at %1$s</string>
+    <string name="detail_details">Details</string>
+    <string name="detail_problem_evidence">Problem Evidence</string>
+    <string name="detail_location">Location</string>
+    <string name="messages_title">Messages</string>
+    <string name="messages_write_hint">Write a message</string>
+    <string name="detail_reporter_contact">Reporter Contact</string>
+    <string name="detail_status_history">Status History</string>
+    <string name="detail_actions">Actions</string>
+    <string name="btn_mark_in_progress">Mark In Progress</string>
+    <string name="btn_mark_resolved">Mark Resolved</string>
+    <string name="btn_close_ticket">Close</string>
+    <string name="btn_reopen">Reopen</string>
+    <string name="btn_close">Close</string>
+
+    <!-- Profile, Citizen Validation & Categories -->
+    <string name="profile_title">Profile</string>
+    <string name="btn_save_changes">Save changes</string>
+    <string name="profile_changes_saved">Changes saved.</string>
+    <string name="profile_impact_detection">Impact detection</string>
+    <string name="profile_impact_detection_desc">Suggest reporting a road anomaly after a sudden impact.</string>
+    <string name="validation_pending_citizens">Pending citizens</string>
+    <string name="btn_refresh">Refresh</string>
+    <string name="btn_approve">Approve</string>
+    <string name="categories_title">Categories</string>
+
+    <!-- Enum Labels -->
+    <string name="status_open">Open</string>
+    <string name="status_info_requested">Info Requested</string>
+    <string name="status_in_progress">In Progress</string>
+    <string name="status_resolved">Resolved</string>
+    <string name="status_closed">Closed</string>
+
+    <string name="situation_damage">Damage</string>
+    <string name="situation_malfunction">Malfunction</string>
+    <string name="situation_destruction">Destruction</string>
+    <string name="situation_theft">Theft</string>
+
+    <string name="visibility_public">Public</string>
+    <string name="visibility_private">Private</string>
+
+    <!-- Proximity Notifications -->
+    <string name="notif_proximity_channel_name">Proximity Alerts</string>
+    <string name="notif_proximity_active_title">CityFix Proximity Active</string>
+    <string name="notif_proximity_active_text">Monitoring nearby active occurrences…</string>
+    <string name="notif_proximity_alert_title">Municipal Team Nearby!</string>
+    <string name="notif_proximity_alert_text">Occurrence (%1$s) is %2$dm away</string>
+
+    <!-- Operator Categories -->
+    <string name="categories_problem_title">Problem categories</string>
+    <string name="categories_add">Add category</string>
+    <string name="categories_edit">Edit category</string>
+    <string name="categories_name_label">Category name</string>
+    <string name="categories_empty">No categories yet.</string>
+    <string name="categories_active">Active</string>
+    <string name="categories_inactive">Inactive</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_edit">Edit</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">Dashboard</string>
+    <string name="dashboard_avg_repair">Average repair time</string>
+    <string name="dashboard_no_resolved">No resolved occurrences</string>
+    <string name="dashboard_total_occurrences">Total occurrences</string>
+    <string name="dashboard_active_occurrences">Active occurrences</string>
+
+    <!-- Profile & Photo -->
+    <string name="btn_choose_photo">Choose photo</string>
+    <string name="btn_take_photo">Take photo</string>
+    <string name="btn_remove_photo">Remove photo</string>
+    <string name="profile_no_location">No location set</string>
+    <string name="map_selected_location">Selected Location</string>
+
+    <!-- Occurrence Detail & Dialogs -->
+    <string name="detail_author">Author</string>
+    <string name="detail_resolution_proof">Resolution Proof</string>
+    <string name="detail_no_status_changes">No status changes recorded yet.</string>
+    <string name="detail_justification_prefix">Justification: </string>
+    <string name="detail_reopen_title">Reopen Ticket</string>
+    <string name="detail_justification_label">Justification</string>
+    <string name="detail_justification_placeholder">Explain why you are reopening…</string>
+    <string name="detail_resolve_title">Attach Resolution Proof</string>
+    <string name="detail_resolve_message">Attach at least one photo or video to mark this occurrence as resolved.</string>
+    <string name="detail_attached_count">Attached: %1$d photo(s), %2$d video(s)</string>
+    <string name="btn_confirm">Confirm</string>
+    <string name="btn_request_info">Request Info</string>
+    <string name="btn_start_resolution">Start Resolution</string>
+    <string name="btn_info_provided">Send Information</string>
+    <string name="btn_reopen_ticket">Reopen Ticket</string>
+    <string name="btn_close_ticket_action">Close Ticket</string>
+    <string name="section_evidence_required">Evidence (Required)</string>
+
+    <!-- Messages & Validation -->
+    <string name="messages_empty">No messages yet. Start the conversation below.</string>
+    <string name="role_operator">Operator</string>
+    <string name="role_citizen">Citizen</string>
+    <string name="cd_send_message">Send message</string>
+    <string name="validation_empty">There are no pending citizens.</string>
+    <string name="validation_unnamed">Unnamed citizen</string>
+    <string name="validation_not_provided">Not provided</string>
+    <string name="validation_location_format">Location: %1$s</string>
+    <string name="validation_nif_format">NIF: %1$s</string>
+
+    <!-- Errors & Info Messages -->
+    <string name="err_enter_name">Enter your name.</string>
+    <string name="err_invalid_email">Enter a valid email address.</string>
+    <string name="err_invalid_phone">Enter a 9-digit phone number.</string>
+    <string name="err_invalid_nif">Enter a valid 9-digit NIF.</string>
+    <string name="err_select_location">Select your location on the map or using GPS.</string>
+    <string name="err_enter_password">Enter your password.</string>
+    <string name="err_password_min_length">Password must contain at least %1$d characters.</string>
+    <string name="err_passwords_mismatch">Passwords do not match.</string>
+    <string name="err_verify_email">Please verify your email address before signing in.</string>
+    <string name="err_pending_approval">Your account is pending municipality approval.</string>
+    <string name="err_nif_already_registered">This NIF is already registered.</string>
+    <string name="info_account_created">Account created! Verify your email and wait for municipality NIF approval before signing in.</string>
+    <string name="info_recovery_sent">If an account exists for this email, a recovery email was sent.</string>
+    <string name="err_auth_incorrect">Email or password is incorrect.</string>
+    <string name="err_auth_email_in_use">An account already exists with this email.</string>
+    <string name="err_auth_weak_password">The password does not meet the required policy.</string>
+    <string name="err_auth_too_many">Too many attempts. Try again later.</string>
+    <string name="err_auth_network">Check your internet connection and try again.</string>
+    <string name="err_auth_generic">Could not complete the request. Try again.</string>
+    <string name="err_description_empty">Description cannot be empty.</string>
+    <string name="err_category_empty">Category cannot be empty.</string>
+    <string name="err_user_not_found">User not found.</string>
+    <string name="err_load_user">Could not load user data.</string>
+    <string name="err_save_user">Could not save user data.</string>
+    <string name="err_name_empty">Name cannot be empty.</string>
+    <string name="err_email_empty">Email cannot be empty.</string>
+    <string name="err_phone_empty">Phone number cannot be empty.</string>
+    <string name="err_phone_9_digits">Phone number must contain exactly 9 digits.</string>
+    <string name="err_nif_empty">NIF cannot be empty.</string>
+    <string name="err_nif_9_digits">NIF must contain exactly 9 digits.</string>
+    <string name="err_load_pending_citizens">Could not load pending citizens.</string>
+    <string name="err_pending_citizen_not_found">Pending citizen not found.</string>
+    <string name="err_approve_citizen">Could not approve citizen.</string>
+    <string name="err_load_categories">Could not load categories.</string>
+    <string name="err_category_not_found">Category not found.</string>
+    <string name="err_save_category">Could not save category.</string>
+    <string name="err_update_category">Could not update category.</string>
+    <string name="err_category_name_empty">Category name cannot be empty.</string>
+    <string name="err_category_duplicate">A category with this name already exists.</string>
+
+    <!-- Information Requests -->
+    <string name="btn_request_clarification">Request Clarification</string>
+    <string name="dialog_request_info_title">Request Information</string>
+    <string name="dialog_request_clarification_title">Request Clarification</string>
+    <string name="dialog_provide_info_title">Provide Information</string>
+    <string name="dialog_info_message_label">Message</string>
+    <string name="dialog_info_message_placeholder">Write what needs to be clarified…</string>
+    <string name="notif_info_channel_name">Information Requests</string>
+    <string name="notif_info_title">New message / clarification</string>
+    <string name="messages_chat_disabled">Ticket is closed. Chat is disabled.</string>
+    <string name="notif_status_channel_name">Ticket Status Updates</string>
+    <string name="notif_status_title">Occurrence Status Updated</string>
+    <string name="notif_status_body">%1$s — %2$s</string>
+    <string name="notif_closing_24h_title">24h left to reopen occurrence</string>
+    <string name="notif_closing_24h_body">Your resolved occurrence (%1$s) will close permanently in less than 24 hours.</string>
+    <string name="group_issue_badge">Group Issue • %1$d follower(s)</string>
+</resources>

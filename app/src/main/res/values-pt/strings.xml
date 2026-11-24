@@ -1,0 +1,241 @@
+<resources>
+    <string name="app_name">CityFix</string>
+
+    <!-- Navegação e Barra Superior -->
+    <string name="cd_back">Voltar</string>
+    <string name="cd_dashboard">Painel</string>
+    <string name="cd_sign_in_or_register">Entrar ou registar</string>
+    <string name="cd_manage_categories">Gerir categorias</string>
+    <string name="cd_validate_citizens">Validar munícipes</string>
+    <string name="cd_add_occurrence">Adicionar</string>
+    <string name="cd_profile">Perfil</string>
+    <string name="cd_sign_out">Sair</string>
+
+    <!-- Diálogo de Deteção de Impactos -->
+    <string name="impact_dialog_title">Possível anomalia na via</string>
+    <string name="impact_dialog_message">Foi detetado um impacto vertical brusco. Pretende registar uma anomalia no pavimento?</string>
+    <string name="impact_dialog_open">Abrir registo</string>
+    <string name="impact_dialog_dismiss">Agora não</string>
+
+    <!-- Login e Registo -->
+    <string name="login_title_sign_in">Entrar no CityFix</string>
+    <string name="login_title_register">Criar conta</string>
+    <string name="login_title_reset">Recuperar palavra-passe</string>
+    <string name="login_subtitle_sign_in">Utilize o seu e-mail e palavra-passe para continuar.</string>
+    <string name="login_subtitle_register">Crie uma conta com o seu endereço de e-mail.</string>
+    <string name="login_subtitle_reset">Enviaremos um link de recuperação para o seu e-mail.</string>
+    <string name="field_full_name_required">Nome completo *</string>
+    <string name="field_name">Nome</string>
+    <string name="field_email">E-mail</string>
+    <string name="field_phone_required">Telefone *</string>
+    <string name="field_phone">Telefone</string>
+    <string name="field_nif_required">NIF *</string>
+    <string name="field_nif">NIF</string>
+    <string name="field_location_required">Localização *</string>
+    <string name="field_location">Localização</string>
+    <string name="field_address_location">Morada / Localização</string>
+    <string name="field_password">Palavra-passe</string>
+    <string name="field_confirm_password">Confirmar palavra-passe</string>
+    <string name="btn_use_current_location">Usar localização atual</string>
+    <string name="cd_search_address">Pesquisar morada</string>
+    <string name="btn_sign_in">Entrar</string>
+    <string name="btn_create_account">Criar conta</string>
+    <string name="btn_send_recovery">Enviar e-mail de recuperação</string>
+    <string name="btn_forgot_password">Esqueceu-se da palavra-passe?</string>
+    <string name="btn_go_to_register">Criar uma conta</string>
+    <string name="btn_already_have_account">Já tem conta? Entrar</string>
+    <string name="btn_back_to_sign_in">Voltar ao login</string>
+    <string name="btn_continue_anonymous">Continuar como anónimo</string>
+
+    <!-- Lista de Ocorrências -->
+    <string name="occurrences_empty_title">Sem ocorrências registadas</string>
+    <string name="occurrences_empty_subtitle">Nenhuma ocorrência corresponde ao perfil atual.</string>
+    <string name="occurrences_header_title">Ocorrências Registadas</string>
+    <string name="occurrences_header_count">%1$d ocorrência(s) listada(s)</string>
+
+    <!-- Nova / Editar Ocorrência -->
+    <string name="occurrence_edit_title">Editar Ocorrência</string>
+    <string name="occurrence_new_title">Registar Nova Ocorrência</string>
+    <string name="occurrence_form_subtitle">Preencha a classificação e os detalhes abaixo.</string>
+    <string name="section_classification">Classificação</string>
+    <string name="label_category">Categoria</string>
+    <string name="label_situation">Situação</string>
+    <string name="label_visibility">Visibilidade</string>
+    <string name="section_details_required">Detalhes (Obrigatório)</string>
+    <string name="label_description_required">Descrição *</string>
+    <string name="placeholder_description">Descreva o problema claramente…</string>
+    <string name="helper_description_required">Obrigatório: descreva o problema de forma clara.</string>
+    <string name="section_media">Fotos e Vídeos</string>
+    <string name="btn_gallery">Galeria</string>
+    <string name="btn_photo">Foto</string>
+    <string name="btn_video">Vídeo</string>
+    <string name="helper_media_empty">Anexe pelo menos uma foto ou vídeo.</string>
+    <string name="section_location_required">Localização (Obrigatório)</string>
+    <string name="helper_location_required">Toque no mapa ou use o GPS para definir o local.</string>
+    <string name="cd_save_occurrence">Guardar ocorrência</string>
+
+    <!-- Detalhe da Ocorrência -->
+    <string name="occurrence_not_found">Ocorrência não encontrada.</string>
+    <string name="detail_category_format">Categoria: %1$s</string>
+    <string name="detail_created_at">Criada em %1$s</string>
+    <string name="detail_details">Detalhes</string>
+    <string name="detail_problem_evidence">Evidências do Problema</string>
+    <string name="detail_location">Localização</string>
+    <string name="messages_title">Mensagens</string>
+    <string name="messages_write_hint">Escreva uma mensagem</string>
+    <string name="detail_reporter_contact">Contacto do Autor</string>
+    <string name="detail_status_history">Histórico de Estados</string>
+    <string name="detail_actions">Ações</string>
+    <string name="btn_mark_in_progress">Em Resolução</string>
+    <string name="btn_mark_resolved">Marcar Resolvida</string>
+    <string name="btn_close_ticket">Encerrar</string>
+    <string name="btn_reopen">Reabrir</string>
+    <string name="btn_close">Fechar</string>
+
+    <!-- Perfil, Validação de Cidadãos e Categorias -->
+    <string name="profile_title">Perfil</string>
+    <string name="btn_save_changes">Guardar alterações</string>
+    <string name="profile_changes_saved">Alterações guardadas.</string>
+    <string name="profile_impact_detection">Deteção de impactos</string>
+    <string name="profile_impact_detection_desc">Sugerir registo de anomalia após um impacto brusco.</string>
+    <string name="validation_pending_citizens">Munícipes pendentes</string>
+    <string name="btn_refresh">Atualizar</string>
+    <string name="btn_approve">Aprovar</string>
+    <string name="categories_title">Categorias</string>
+
+    <!-- Enums -->
+    <string name="status_open">Aberta</string>
+    <string name="status_info_requested">Pedido de Informações</string>
+    <string name="status_in_progress">Em Resolução</string>
+    <string name="status_resolved">Resolvida</string>
+    <string name="status_closed">Encerrada</string>
+
+    <string name="situation_damage">Dano</string>
+    <string name="situation_malfunction">Avaria</string>
+    <string name="situation_destruction">Destruição</string>
+    <string name="situation_theft">Roubo</string>
+
+    <string name="visibility_public">Pública</string>
+    <string name="visibility_private">Privada</string>
+
+    <!-- Notificações de Proximidade -->
+    <string name="notif_proximity_channel_name">Alertas de Proximidade</string>
+    <string name="notif_proximity_active_title">Proximidade CityFix Ativa</string>
+    <string name="notif_proximity_active_text">A monitorizar ocorrências ativas por perto…</string>
+    <string name="notif_proximity_alert_title">Ocorrência Próxima!</string>
+    <string name="notif_proximity_alert_text">A ocorrência (%1$s) está a %2$dm de distância</string>
+
+    <!-- Categorias do Operador -->
+    <string name="categories_problem_title">Categorias de problemas</string>
+    <string name="categories_add">Adicionar categoria</string>
+    <string name="categories_edit">Editar categoria</string>
+    <string name="categories_name_label">Nome da categoria</string>
+    <string name="categories_empty">Ainda não existem categorias.</string>
+    <string name="categories_active">Ativa</string>
+    <string name="categories_inactive">Inativa</string>
+    <string name="btn_save">Guardar</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="btn_edit">Editar</string>
+
+    <!-- Painel de Estatísticas -->
+    <string name="dashboard_title">Painel de Estatísticas</string>
+    <string name="dashboard_avg_repair">Tempo médio de reparação</string>
+    <string name="dashboard_no_resolved">Sem ocorrências resolvidas</string>
+    <string name="dashboard_total_occurrences">Total de ocorrências</string>
+    <string name="dashboard_active_occurrences">Ocorrências ativas</string>
+
+    <!-- Perfil e Foto -->
+    <string name="btn_choose_photo">Escolher foto</string>
+    <string name="btn_take_photo">Tirar foto</string>
+    <string name="btn_remove_photo">Remover foto</string>
+    <string name="profile_no_location">Sem localização definida</string>
+    <string name="map_selected_location">Localização Selecionada</string>
+
+    <!-- Detalhe e Diálogos -->
+    <string name="detail_author">Autor</string>
+    <string name="detail_resolution_proof">Prova de Resolução</string>
+    <string name="detail_no_status_changes">Ainda sem alterações de estado.</string>
+    <string name="detail_justification_prefix">Justificação: </string>
+    <string name="detail_reopen_title">Reabrir Ocorrência</string>
+    <string name="detail_justification_label">Justificação</string>
+    <string name="detail_justification_placeholder">Explique o motivo da reabertura…</string>
+    <string name="detail_resolve_title">Anexar Prova de Resolução</string>
+    <string name="detail_resolve_message">Anexe pelo menos uma foto ou vídeo para marcar a ocorrência como resolvida.</string>
+    <string name="detail_attached_count">Anexados: %1$d foto(s), %2$d vídeo(s)</string>
+    <string name="btn_confirm">Confirmar</string>
+    <string name="btn_request_info">Pedir Informações</string>
+    <string name="btn_start_resolution">Iniciar Resolução</string>
+    <string name="btn_info_provided">Enviar Informações</string>
+    <string name="btn_reopen_ticket">Reabrir Ocorrência</string>
+    <string name="btn_close_ticket_action">Encerrar Ocorrência</string>
+    <string name="section_evidence_required">Evidências (Obrigatório)</string>
+
+    <!-- Mensagens e Validação -->
+    <string name="messages_empty">Sem mensagens ainda. Inicie a conversa abaixo.</string>
+    <string name="role_operator">Operador</string>
+    <string name="role_citizen">Munícipe</string>
+    <string name="cd_send_message">Enviar mensagem</string>
+    <string name="validation_empty">Não existem munícipes pendentes.</string>
+    <string name="validation_unnamed">Munícipe sem nome</string>
+    <string name="validation_not_provided">Não fornecido</string>
+    <string name="validation_location_format">Localização: %1$s</string>
+    <string name="validation_nif_format">NIF: %1$s</string>
+
+    <!-- Erros e Mensagens Informativas -->
+    <string name="err_enter_name">Introduza o seu nome.</string>
+    <string name="err_invalid_email">Introduza um e-mail válido.</string>
+    <string name="err_invalid_phone">Introduza um telefone com 9 dígitos.</string>
+    <string name="err_invalid_nif">Introduza um NIF válido com 9 dígitos.</string>
+    <string name="err_select_location">Selecione a localização no mapa ou use o GPS.</string>
+    <string name="err_enter_password">Introduza a palavra-passe.</string>
+    <string name="err_password_min_length">A palavra-passe deve ter pelo menos %1$d caracteres.</string>
+    <string name="err_passwords_mismatch">As palavras-passe não coincidem.</string>
+    <string name="err_verify_email">Verifique o seu e-mail antes de iniciar sessão.</string>
+    <string name="err_pending_approval">A sua conta aguarda validação pela autarquia.</string>
+    <string name="err_nif_already_registered">Este NIF já se encontra registado.</string>
+    <string name="info_account_created">Conta criada! Verifique o seu e-mail e aguarde a aprovação do NIF pela autarquia.</string>
+    <string name="info_recovery_sent">Se existir uma conta para este e-mail, foi enviado um link de recuperação.</string>
+    <string name="err_auth_incorrect">E-mail ou palavra-passe incorretos.</string>
+    <string name="err_auth_email_in_use">Já existe uma conta com este e-mail.</string>
+    <string name="err_auth_weak_password">A palavra-passe não cumpre os requisitos mínimos.</string>
+    <string name="err_auth_too_many">Demasiadas tentativas. Tente mais tarde.</string>
+    <string name="err_auth_network">Verifique a ligação à internet e tente novamente.</string>
+    <string name="err_auth_generic">Não foi possível concluir o pedido. Tente novamente.</string>
+    <string name="err_description_empty">A descrição não pode ficar vazia.</string>
+    <string name="err_category_empty">A categoria não pode ficar vazia.</string>
+    <string name="err_user_not_found">Utilizador não encontrado.</string>
+    <string name="err_load_user">Não foi possível carregar os dados do utilizador.</string>
+    <string name="err_save_user">Não foi possível guardar os dados do utilizador.</string>
+    <string name="err_name_empty">O nome não pode ficar vazio.</string>
+    <string name="err_email_empty">O e-mail não pode ficar vazio.</string>
+    <string name="err_phone_empty">O telefone não pode ficar vazio.</string>
+    <string name="err_phone_9_digits">O telefone deve ter exatamente 9 dígitos.</string>
+    <string name="err_nif_empty">O NIF não pode ficar vazio.</string>
+    <string name="err_nif_9_digits">O NIF deve ter exatamente 9 dígitos.</string>
+    <string name="err_load_pending_citizens">Não foi possível carregar os munícipes pendentes.</string>
+    <string name="err_pending_citizen_not_found">Munícipe pendente não encontrado.</string>
+    <string name="err_approve_citizen">Não foi possível aprovar o munícipe.</string>
+    <string name="err_load_categories">Não foi possível carregar as categorias.</string>
+    <string name="err_category_not_found">Categoria não encontrada.</string>
+    <string name="err_save_category">Não foi possível guardar a categoria.</string>
+    <string name="err_update_category">Não foi possível atualizar a categoria.</string>
+    <string name="err_category_name_empty">O nome da categoria não pode ficar vazio.</string>
+    <string name="err_category_duplicate">Já existe uma categoria com este nome.</string>
+
+    <!-- Pedidos de Informação -->
+    <string name="btn_request_clarification">Pedir Esclarecimento</string>
+    <string name="dialog_request_info_title">Pedir Informações</string>
+    <string name="dialog_request_clarification_title">Pedir Esclarecimento</string>
+    <string name="dialog_provide_info_title">Fornecer Informações</string>
+    <string name="dialog_info_message_label">Mensagem</string>
+    <string name="dialog_info_message_placeholder">Escreva o que pretende esclarecer…</string>
+    <string name="notif_info_channel_name">Pedidos de Informação</string>
+    <string name="notif_info_title">Novo pedido de esclarecimento</string>
+    <string name="messages_chat_disabled">Ocorrência encerrada. O chat está desativado.</string>
+    <string name="notif_status_channel_name">Atualizações de Estado</string>
+    <string name="notif_status_title">Estado da Ocorrência Atualizado</string>
+    <string name="notif_status_body">%1$s — %2$s</string>
+    <string name="notif_closing_24h_title">Faltam menos de 24h para encerrar</string>
+    <string name="notif_closing_24h_body">A sua ocorrência resolvida (%1$s) será encerrada definitivamente em menos de 24 horas.</string>
+    <string name="group_issue_badge">Ocorrência de Grupo • %1$d seguidor(es)</string>
+</resources>
